@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Формы. Д/З №4</title>
+	</head>
+	<body>
+		<form class="form">
+			<h2 class="form-group-title">Ваши личные данные</h2>
+			<fieldset class="form-group">
+				<label class="label">
+					Ваше имя
+					<input
+						class="input"
+						type="text"
+						name="name"
+						placeholder="Имя"
+						required
+					/>
+				</label>
+				<label class="label">
+					Ваш возраст
+					<input
+						class="input"
+						type="number"
+						name="age"
+						placeholder="Возраст"
+						required
+					/>
+				</label>
+				<label class="label">
+					Ваш номер телефона
+					<input
+						class="input"
+						type="tel"
+						name="tel"
+						placeholder="Номер телефона"
+						required
+					/>
+				</label>
+				<label class="label">
+					Ваша почта
+					<input
+						class="input"
+						type="email"
+						name="email"
+						placeholder="Почта"
+						required
+					/>
+				</label>
+			</fieldset>
+			<fieldset class="form-group">
+				<legend>Сообщение</legend>
+				<textarea
+					class="textarea"
+					name="message"
+					placeholder="Ваше сообщение"
+					required
+				></textarea>
+				<label class="checkbox-text">
+					<input
+						class="input-checkbox"
+						type="checkbox"
+						name="agreement"
+						required
+					/>
+					Я принимаю правила
+				</label>
+			</fieldset>
+			<button class="button" type="submit">Отправить</button>
+		</form>
+	</body>
+</html>
