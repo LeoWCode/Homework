@@ -1,0 +1,373 @@
+.hero {
+	position: relative;
+	padding-top: 80px;
+}
+
+.hero::before {
+	bottom: 106px;
+	width: 100%;
+}
+
+.hero-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 28px;
+}
+
+.hero h1 {
+	font-family: Oswald, sans-serif;
+	margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 62px;
+	line-height: 115%;
+	text-transform: uppercase;
+	color: #2c332f;
+}
+
+.hero h1 strong {
+	font-weight: 600;
+	color: #3596ed;
+}
+
+.hero-info {
+	max-width: 492px;
+}
+
+.hero-info .text {
+	margin-bottom: 140px;
+	max-width: 440px;
+}
+
+.hero-images {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+}
+
+.hero-choose {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	padding: 22px;
+	max-width: 161px;
+	border: 1px solid #535755;
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+}
+
+.news-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 28px;
+}
+
+.news-article {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	max-width: 284px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 25%;
+	flex: 1 1 25%;
+	background-color: #fff;
+	border: 1px solid #d3cbd9;
+	overflow: hidden;
+}
+
+.news-article img {
+	display: block;
+}
+
+.news-info {
+	padding: 20px 20px 0;
+	margin-bottom: 12px;
+}
+
+.news-date {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.news-article footer {
+	padding: 0 20px 20px;
+	margin-top: auto;
+}
+
+.news-link {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #3596ed;
+}
+
+.news-link::after {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 9px;
+	background-image: url("../images/arrow-right-icon.svg");
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	-o-transition: transform 0.2s;
+	transition: transform 0.2s;
+	transition:
+		transform 0.2s,
+		-webkit-transform 0.2s;
+}
+
+.news-link:hover::after {
+	-webkit-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	transform: translateX(5px);
+}
+
+.faq {
+	position: relative;
+}
+
+.faq::before {
+	top: 215px;
+}
+
+.faq-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	gap: 28px;
+}
+
+details {
+	margin-bottom: 20px;
+	border-block: 1px solid #d3cbd9;
+}
+
+details:last-child {
+	margin-bottom: 0;
+}
+
+details[open] summary::after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+summary {
+	list-style: none; /* Это свойство убирает маркеры списка  Убираем маркер в Firefox и других браузерах*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+summary::after {
+	content: "";
+	display: inline-block;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 15px;
+	height: 21px;
+	background: url("../images/arrow-down-icon.svg") no-repeat center / cover;
+	-webkit-transition: -webkit-transform 0.25s ease-in-out;
+	transition: -webkit-transform 0.25s ease-in-out;
+	-o-transition: transform 0.25s ease-in-out;
+	transition: transform 0.25s ease-in-out;
+	transition:
+		transform 0.25s ease-in-out,
+		-webkit-transform 0.25s ease-in-out;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+details > p {
+	padding: 0 20px 20px;
+}
+
+@media (width <= 1440px) {
+	.hero-images img {
+		width: 50%;
+	}
+}
+
+@media (width <= 992px) {
+	.hero::before {
+		display: none;
+	}
+
+	.hero-container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.hero-info {
+		text-align: center;
+	}
+
+	.hero-info .text {
+		max-width: inherit;
+		margin-bottom: 30px;
+	}
+
+	.hero h1 {
+		margin-bottom: 30px;
+		font-size: 52px;
+	}
+
+	.news-container {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.news-article {
+		-ms-flex-preferred-size: 50%;
+		flex-basis: 50%;
+		max-width: 350px;
+	}
+
+	.news-article img {
+		width: 100%;
+	}
+
+	.faq::before {
+		display: none;
+	}
+
+	.faq-container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+}
+
+@media (width <= 768px) {
+	.hero h1 {
+		font-size: 50px;
+	}
+
+	.news-article {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+		max-width: 400px;
+	}
+}
+
+@media (width <= 576px) {
+	.hero {
+		padding-top: 60px;
+	}
+
+	.hero-info {
+		max-width: 410px;
+	}
+
+	.hero h1 {
+		font-size: 42px;
+	}
+
+	.hero-choose {
+		padding: 10px;
+		max-width: 125px;
+		font-size: 14px;
+	}
+}
+
+/* 
+1. inherit (Наследовать)
+Принцип: «Я буду делать так же, как мой родитель». Элемент смотрит на своего ближайшего родителя в HTML и копирует значение свойства у него.
+
+2. initial (Начальное значение)  
+Принцип: «Сбрось это свойство до заводских настроек». У каждого CSS-свойства есть значение по умолчанию, которое прописано в спецификации языка (не путать со стилями браузера). initial устанавливает именно это стандартное значение. */
+
+/* По умолчанию браузеры добавляют к <summary> стандартный черный треугольник (маркер), который показывает, открыт список или закрыт.
+
+summary — это элемент списка.
+::-webkit-details-marker — это псевдоэлемент, который обозначает этот самый треугольник только в браузерах на движке WebKit (Google Chrome, Safari, Edge, Opera).
+display: none — мы говорим браузеру: "Скрой этот стандартный треугольник, он нам не нужен". */
+
+/* Самые частые значения max-width для @media: 
+
+1400px / 1200px — Большие мониторы и ноутбуки.
+992px — Горизонтальные планшеты или маленькие ноутбуки.
+768px — Вертикальные планшеты (классический iPad). Это самый важный брейкпоинт.
+576px — Большие смартфоны (горизонтальная ориентация).
+375px / 414px — Современные смартфоны (iPhone, Samsung) в вертикальном положении. */
+
+/* Свойство flex управляет тем, как элемент изменяет свои размеры внутри гибкого контейнера (display: flex).
+Формула такая: flex: [flex-grow] [flex-shrink] [flex-basis];
+Разберем каждое число из твоего кода:
+1. flex-grow: 1 (Жадность / Рост)
+Вопрос: "Если в контейнере осталось свободное место, сколько мне забрать?"
+Значение 0: Не расти. Оставайся своего размера.
+Значение 1: Расти! Занимай свободное пространство.
+Механика: Если у всех элементов стоит 1, они поделят свободное место поровну. Если у одного 2, а у другого 1, первый заберет в два раза больше свободного места.
+2. flex-shrink: 1 (Уступчивость / Сжатие)
+Вопрос: "Если места не хватает (контейнер слишком узкий), мне сжиматься?"
+Значение 0: Ни за что! Я буду вылезать за пределы контейнера, но не сожмусь.
+Значение 1: Окей, я ужмусь, чтобы мы все поместились.
+Механика: Это спасает верстку от поломки на маленьких экранах.
+3. flex-basis: 25% (Базовый размер)
+Вопрос: "Какой мой идеальный размер до того, как мы начнем расти или сжиматься?"
+Значение: Это как width, но круче. В твоем случае это 25% от ширины родителя.
+Механика: Это отправная точка для расчетов браузера. */
+
+/* 📊 Статистика нагрузки (от худшего к лучшему)
+
+🔴 Группа 1: Самые тяжелые (Layout / Reflow)
+Эти свойства заставляют браузер пересчитывать положение всех элементов на странице. Если ты анимируешь их, сайт будет «тормозить» (особенно на телефонах).
+
+Свойства: width, height, margin, padding, top, left, font-size, flex-basis.
+Почему плохо: Изменил ширину одной кнопки — сдвинулся весь текст рядом — перестроилась вся страница.
+
+🟡 Группа 2: Средняя нагрузка (Paint / Repaint)
+Они не меняют геометрию, но заставляют браузер «перекрашивать» элемент.
+
+Свойства: color, background-color, box-shadow, border-radius.
+Нюанс: box-shadow — самое тяжелое в этой группе, так как браузеру нужно математически рассчитывать размытие (blur) каждого пикселя.
+
+🟢 Группа 3: Самые легкие (Composite / GPU)
+Эти свойства не трогают ни макет, ни отрисовку. Они создают отдельный «слой» и отдают его видеокарте. Это дает те самые 60 FPS (плавность).
+
+Свойства: transform (rotate, scale, translate) и opacity.
+Почему круто: Видеокарта просто перемещает или делает прозрачным уже готовый «рисунок». */
