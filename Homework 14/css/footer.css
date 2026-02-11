@@ -1,0 +1,72 @@
+.footer {
+	margin-top: auto;
+	padding: 60px 0 40px;
+	background-image: linear-gradient(
+		90deg,
+		rgba(73, 169, 255, 0.2) 0%,
+		rgba(252, 124, 217, 0.2) 100%
+	);
+	text-align: center;
+}
+
+.footer__top {
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #d3cbd9;
+}
+
+.footer__logo {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.menu__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu__link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+	transition: color 0.2s;
+}
+
+.menu__link:hover {
+	color: #3596ed;
+}
+
+.footer__copyright {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	color: #858e8a;
+}
+
+@media (width <= 768px) {
+	.menu__list {
+		flex-direction: column;
+		gap: 25px;
+	}
+}
+
+@media (width <= 576px) {
+	.footer {
+		padding-top: 40px;
+	}
+}
+
+/* inline тегам вроде ссылки нельзя задавать отступы
+Inline-элементам (как <a>) МОЖНО задавать:
+✅ padding (слева/справа и сверху/снизу)
+✅ margin (слева/справа)
+НО НЕЛЬЗЯ:
+❌ margin-top и margin-bottom — не работают
+
+ */
