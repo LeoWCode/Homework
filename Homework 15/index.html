@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="shortcut icon"
+			href="./icons/nike-favicon-48x48.ico"
+			type="image/x-icon"
+		/>
+		<script defer src="./js/index.js" type="module"></script>
+		<!-- подключение файла js -->
+		<title>Nike Air Mag</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<a href="#" class="logo header__logo">
+					<img
+						class="logo__img"
+						src="./icons/logo-icon.svg"
+						alt="Логотип Nike "
+						width="50"
+						height="20"
+					/>
+				</a>
+				<nav
+					class="menu header__menu"
+					id="header__menu"
+					aria-label="Главное меню"
+				>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#air-mag" class="menu__link" lang="en">Air Mag</a>
+						</li>
+						<li class="menu__item">
+							<a href="#sizes" class="menu__link">Размеры</a>
+						</li>
+						<li class="menu__item">
+							<a href="#characteristic" class="menu__link">Характеристики</a>
+						</li>
+						<li class="menu__item">
+							<a href="#top-models" class="menu__link">Другие ТОП модели</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__controls">
+					<a href="" class="header__order" href="#">Сделать заказ</a>
+					<div class="header__actions">
+						<button
+							class="header__actions-button"
+							title="Поиск"
+							aria-label="Поиск"
+						>
+							<svg width="24" height="24">
+								<use
+									class="header__actions-icon"
+									href="./icons/sprite.svg#search"
+								></use>
+							</svg>
+						</button>
+						<button
+							class="header__actions-button"
+							title="Корзина"
+							aria-label="Корзина"
+						>
+							<svg width="24" height="24">
+								<use
+									class="header__actions-icon"
+									href="./icons/sprite.svg#cart"
+								></use>
+							</svg>
+						</button>
+						<button
+							class="header__burger burger"
+							aria-label="Открыть меню"
+							aria-expanded="false"
+							aria-controls="header__menu"
+						>
+							<svg width="24" height="24">
+								<use
+									class="burger__icon-menu"
+									href="./icons/sprite.svg#menu-burger"
+								></use>
+								<use
+									class="burger__icon-cross"
+									href="./icons/sprite.svg#menu-cross"
+								></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>
+
+<!--  Скрипт в <head> БЕЗ ###defer###
+
+Браузер доходит до <script>.
+🛑 СТОП МАШИНА! Браузер прекращает рисовать страницу.
+Он скачивает файл index.js.
+Он запускает и выполняет его.
+Только потом продолжает рисовать <body>.
+Проблема: Пользователь видит белый экран дольше. Скрипт попытается найти кнопку бургера, а её еще нет в HTML -> Ошибка в консоли. -->
