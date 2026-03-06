@@ -1,0 +1,123 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--main-color);
+	scroll-behavior: smooth;
+	scroll-padding-top: 98px;
+}
+
+/*
+-scroll-behavior: smooth; — данное свойство определяет поведение прокрутки для элемента.
+Оно обеспечивает плавную анимацию перемещения к целевой области вместо мгновенного скачка,
+что значительно улучшает пользовательский опыт при навигации по якорным ссылкам.
+-scroll-padding-top: 88px; — данное свойство определяет отступ от верха элемента,
+к которому происходит прокрутка. Это позволяет избежать ситуации, когда
+якорная ссылка оказывается под фиксированным хедером или другими элементами,
+которые перекрывают часть контента.
+*/
+
+.page__body {
+	min-width: 375px;
+	background-color: var(--bg-color);
+}
+
+.page__body--no-scroll {
+	overflow-y: hidden;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+/* Что делает функция min(A, B)?
+Она работает как автоматический лимитер.
+Она смотрит на два значения, которые ты ей дал, сравнивает их прямо в моменте и выбирает МЕНЬШЕЕ из двух. */
+
+img {
+	object-fit: cover;
+}
+
+/* object-fit: cover заставляет картинку:
+
+Сохранять свои пропорции.
+Полностью заполнять собой весь блок.
+«Лишние» части, которые не влезли, просто обрезаются. 
+Чтобы object-fit: cover сработал, у картинки обязательно должны быть заданы размеры (ширина и высота).*/
+
+a:focus-visible,
+button:focus-visible {
+	outline: 1px solid var(--accent-color);
+	outline-offset: 2px;
+}
+
+.text-light,
+.text-regular {
+	font-size: 16px;
+	line-height: 140%;
+	color: var(--main-color);
+}
+
+.text-light {
+	font-weight: 300;
+}
+
+.text-regular {
+	font-weight: 400;
+}
+
+.title-xs,
+.title-md,
+.title-sm {
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+
+.title-md {
+	/* min-with 375px, max-width 992px */
+	font-size: clamp(32px, 0.936rem + 4.54vw, 60px);
+}
+
+.title-sm {
+	/* min-with 375px, max-width 768px */
+	font-size: clamp(24px, 1.023rem + 2.04vw, 32px);
+}
+
+.title-xs {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+
+@media (width > 576px) {
+	.section {
+		padding-bottom: 140px;
+	}
+
+	.section-title {
+		margin-bottom: 40px;
+	}
+}
+
+@media (width <= 576px) {
+	.section {
+		padding-bottom: 80px;
+	}
+
+	.section-title {
+		margin-bottom: 30px;
+	}
+}
+
+/* 
+:focus — «Старая школа»
+Этот псевдокласс срабатывает всегда, когда элемент получает фокус. Неважно, как ты это сделал: 
+
+:focus-visible — «Умный фокус»
+Это современный стандарт. Он включает обводку только тогда, когда она действительно нужна пользователю.
+Браузер сам решает:
+-Если ты кликнул мышкой, браузер понимает: «Окей, ты и так видишь, куда нажал, рамка не нужна». Фокус не виден.
+-Если ты навигируешь клавиатурой (Tab), браузер понимает: «Ты не используешь мышь, тебе нужно видеть, где сейчас находится курсор». Рамка появляется.
+*/
