@@ -1,0 +1,69 @@
+.line {
+	stroke: var(--color-white);
+	stroke-width: 3;
+	transform-box: fill-box;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transition:
+		opacity var(--transition-time),
+		stroke var(--transition-time),
+		-webkit-transform var(--transition-time);
+	transition:
+		opacity var(--transition-time),
+		stroke var(--transition-time),
+		-webkit-transform var(--transition-time);
+	-o-transition:
+		transform var(--transition-time),
+		opacity var(--transition-time),
+		stroke var(--transition-time);
+	transition:
+		transform var(--transition-time),
+		opacity var(--transition-time),
+		stroke var(--transition-time);
+	transition:
+		transform var(--transition-time),
+		opacity var(--transition-time),
+		stroke var(--transition-time),
+		-webkit-transform var(--transition-time);
+}
+
+.header__burger {
+	z-index: var(--layer-3);
+	height: auto;
+	width: 34px;
+}
+
+@media (any-hover: hover) {
+	.header__burger:hover .line {
+		stroke: var(--color-accent);
+	}
+}
+
+@media (width <= 768px) {
+	.header__burger {
+		width: clamp(24px, 1.113rem + 1.59vw, 30px);
+	}
+}
+
+.burger-icon {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.burger.burger--open .line--top {
+	-webkit-transform: translateY(10px) rotate(45deg);
+	-ms-transform: translateY(10px) rotate(45deg);
+	transform: translateY(10px) rotate(45deg);
+}
+
+.burger.burger--open .line--mid {
+	opacity: 0;
+}
+
+.burger.burger--open .line--bottom {
+	-webkit-transform: translateY(-10px) rotate(-45deg);
+	-ms-transform: translateY(-10px) rotate(-45deg);
+	transform: translateY(-10px) rotate(-45deg);
+}
