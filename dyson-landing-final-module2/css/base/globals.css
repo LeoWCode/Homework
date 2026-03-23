@@ -5,11 +5,14 @@
 	/* scroll-padding-top: 98px; */
 	scrollbar-gutter: stable; /* Резервирует место под полосу прокрутки, предотвращая смещение контента при её появлении */
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+    width: 100%;
 }
 
 .page__body {
 	min-width: 390px;
-	height: 300vh;
+	overflow-x: hidden;
+    width: 100%;
 }
 
 .container {
