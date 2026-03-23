@@ -144,7 +144,7 @@
 }
 
 .benefits__item-title {
-	font-family: var(--font-main);
+	font-family: var(--font-accent);
 	font-weight: var(--fw-heavy);
 	color: var(--text-bold);
 	font-size: 20px;
