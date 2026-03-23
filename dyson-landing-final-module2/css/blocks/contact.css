@@ -51,7 +51,7 @@
 }
 
 .form__title {
-	font-family: var(--font-main);
+	font-family: var(--font-accent);
 	font-weight: var(--fw-heavy);
 	color: var(--text-main);
 	font-size: clamp(20px, 0.333rem + 1.91vw, 42px);
