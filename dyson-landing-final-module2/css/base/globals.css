@@ -10,7 +10,7 @@
 }
 
 .page__body {
-	min-width: 390px;
+	min-width: 320px;
 	overflow-x: hidden;
     width: 100%;
 }
