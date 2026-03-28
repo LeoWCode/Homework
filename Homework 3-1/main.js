@@ -41,7 +41,7 @@ let e = Boolean(" ");
 let result = a + b + c + d + e;
 
 console.log(result);
-123456789falsetrue
+// 123456789falsetrue
 
 console.log(typeof result);
 
