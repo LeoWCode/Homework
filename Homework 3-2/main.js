@@ -70,7 +70,7 @@ if (weight <= 0) {
 ) {
 	console.log("Неверный тип доставки");
 	alert("Неверный тип доставки");
-}
+} else {
 
 //3.
 
@@ -109,3 +109,4 @@ const totalCost = baseCost * coefficient;
 // 6.
 alert("Итоговая стоимость доставки: " + totalCost + "$.");
 console.log("Итоговая стоимость доставки: " + totalCost + "$.");
+}
