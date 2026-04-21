@@ -32,10 +32,10 @@ console.log(isEmpty(object));
 const task = {
 	title: "homework",
 	description: "objects, for in, spread",
-	isCompleted: "true",
+	isCompleted: "false",
 };
 
-const modifications = { isCompleted: "false" };
+const modifications = { isCompleted: "true" };
 
 const cloneAndModify = function (object, modifications) {
 	const NewObject = { ...object, ...modifications };
