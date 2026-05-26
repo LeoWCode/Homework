@@ -179,6 +179,8 @@
 	display: -ms-flexbox;
 	display: flex;
 	gap: 7px;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
 }
 
 @media (width <= 768px) {
@@ -220,9 +222,6 @@
 	color: black;
 }
 
-.reviews__star {
-	flex-direction: row-reverse;
-}
 
 @media (any-hover: hover) {
 	.reviews__star-icon:hover {
