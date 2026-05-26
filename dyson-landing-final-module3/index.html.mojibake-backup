@@ -1,0 +1,1889 @@
+﻿<!doctype html>
+<html lang="ru" class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./icons/Dyson-favicon.svg"
+			type="image/svg+xml"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+			defer
+		></script>
+		<script src="./js/index.js" type="module"></script>
+		<title>Р¤РµРЅ Dyson</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<div class="header__left">
+					<button class="header__burger burger" aria-label="РћС‚РєСЂС‹С‚СЊ РјРµРЅСЋ">
+						<svg class="burger-icon" viewBox="0 0 34 27" width="34" height="27">
+							<line
+								class="line line--top"
+								x1="2"
+								y1="4"
+								x2="32"
+								y2="4"
+								stroke-linecap="round"
+							/>
+							<line
+								class="line line--mid"
+								x1="2"
+								y1="14"
+								x2="32"
+								y2="14"
+								stroke-linecap="round"
+							/>
+							<line
+								class="line line--bottom"
+								x1="2"
+								y1="24"
+								x2="32"
+								y2="24"
+								stroke-linecap="round"
+							/>
+						</svg>
+					</button>
+					<a href="#" class="header__logo" aria-label="РќР° РіР»Р°РІРЅСѓСЋ">
+						<img
+							class="logo__img"
+							src="./icons/logo-icon.svg"
+							alt="Dyson"
+							width="183"
+							height="77"
+						/>
+					</a>
+				</div>
+				<nav class="menu header__menu" aria-label="Р“Р»Р°РІРЅРѕРµ РјРµРЅСЋ">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#" class="menu__link">Рћ РЅР°СЃ</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Р”РѕСЃС‚Р°РІРєР° Рё РѕРїР»Р°С‚Р°</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Р РµРіРёСЃС‚СЂР°С†РёСЏ РїСЂРѕРґСѓРєС‚Р°</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">РЎРµСЂРІРёСЃ</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">РЎРµСЂС‚РёС„РёРєР°С‚С‹ Рё Р»РёС†РµРЅР·РёРё</a>
+						</li>
+					</ul>
+				</nav>
+				<button
+					class="header__cart-button"
+					title="РљРѕСЂР·РёРЅР°"
+					aria-label="РљРѕСЂР·РёРЅР°"
+				>
+					<svg viewBox="0 0 31 31" class="header__cart-svg">
+						<use
+							class="header__cart-icon"
+							href="./icons/cart-icon.svg#cart"
+						></use>
+					</svg>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero">
+				<div class="hero__grid">
+					<div class="hero__content">
+						<h1 class="hero__title main-title">
+							РЈРЅРёРєР°Р»СЊРЅС‹Рµ С‚РµС…РЅРѕР»РѕРіРёРё РґР»СЏВ СѓС…РѕРґР°В Р·Р°В РІРѕР»РѕСЃР°РјРё
+						</h1>
+						<p class="hero__text">
+							РРґРµР°Р»СЊРЅР°СЏ СѓРєР»Р°РґРєР° РґР»СЏ РІСЃРµС… С‚РёРїРѕРІ РІРѕР»РѕСЃ РІРјРµСЃС‚РµВ СЃВ Dyson
+						</p>
+						<button class="hero__button-details button-text">РџРѕРґСЂРѕР±РЅРµРµ</button>
+					</div>
+					<picture class="hero__img-wrapper">
+						<source srcset="./images/hero-img.webp" type="image/webp" />
+						<img
+							class="hero__img"
+							src="./images/hero-img.jpg"
+							width="997"
+							height="850"
+							alt="Р”РµРІСѓС€РєР° СЃ С„РµРЅРѕРј Dyson"
+						/>
+					</picture>
+				</div>
+			</section>
+			<section class="categories">
+				<div class="container categories__grid">
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-1.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="Р”РµРІСѓС€РєР° РґРµР»Р°РµС‚ СѓРєР»Р°РґРєСѓ РІРѕР»РѕСЃ СЃС‚Р°Р№Р»РµСЂРѕРј Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">РђРєС†РёРё</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-2.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="С„РµРЅ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">Р¤РµРЅС‹</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-3.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="СЃС‚Р°Р№Р»РµСЂ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">РЎС‚Р°Р№Р»РµСЂС‹</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-4.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="РІС‹РїСЂСЏРјРёС‚РµР»СЊ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">Р’С‹РїСЂСЏРјРёС‚РµР»Рё</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-1.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="Р”РµРІСѓС€РєР° РґРµР»Р°РµС‚ СѓРєР»Р°РґРєСѓ РІРѕР»РѕСЃ СЃС‚Р°Р№Р»РµСЂРѕРј Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">РђРєС†РёРё</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-2.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="С„РµРЅ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">Р¤РµРЅС‹</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-3.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="СЃС‚Р°Р№Р»РµСЂ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">РЎС‚Р°Р№Р»РµСЂС‹</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="categories__item">
+						<a href="#!" class="categories__item-link">
+							<img
+								class="categories__item-img"
+								src="./images/categories-img-4.jpg"
+								width="325"
+								height="325"
+								loading="lazy"
+								alt="РІС‹РїСЂСЏРјРёС‚РµР»СЊ Dyson"
+							/>
+							<div class="categories__item-content">
+								<h3 class="categories__item-title">Р’С‹РїСЂСЏРјРёС‚РµР»Рё</h3>
+								<div class="categories__item-more">
+									<span class="categories__item-text">РџРѕРґСЂРѕР±РЅРµРµ</span>
+									<svg class="categories__item-icon" width="34" height="34">
+										<use href="./icons/arrow-icon.svg#arrow"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</article>
+				</div>
+			</section>
+			<section class="concept">
+				<div class="container">
+					<article class="concept__item">
+						<h2 class="concept__item-title">Р‘Р°Р·РѕРІС‹Р№ РІРµРєС‚РѕСЂ СЂР°Р·РІРёС‚РёСЏ</h2>
+						<p class="concept__item-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+					</article>
+					<article class="concept__item">
+						<h3 class="concept__item-title">Р‘Р°Р·РѕРІС‹Р№ РІРµРєС‚РѕСЂ СЂР°Р·РІРёС‚РёСЏ</h3>
+						<p class="concept__item-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+					</article>
+					<article class="concept__item">
+						<h4 class="concept__item-title">Р‘Р°Р·РѕРІС‹Р№ РІРµРєС‚РѕСЂ СЂР°Р·РІРёС‚РёСЏ</h4>
+						<p class="concept__item-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+					</article>
+					<article class="concept__item">
+						<h5 class="concept__item-title">Р‘Р°Р·РѕРІС‹Р№ РІРµРєС‚РѕСЂ СЂР°Р·РІРёС‚РёСЏ</h5>
+						<p class="concept__item-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+					</article>
+					<article class="concept__item">
+						<h6 class="concept__item-title">Р‘Р°Р·РѕРІС‹Р№ РІРµРєС‚РѕСЂ СЂР°Р·РІРёС‚РёСЏ</h6>
+						<p class="concept__item-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+					</article>
+				</div>
+			</section>
+			<section class="experts">
+				<div class="container experts__container">
+					<article class="experts__content">
+						<h2 class="experts__content-title section-title">
+							РњРЅРµРЅРёРµ СЌРєСЃРїРµСЂС‚РѕРІ Рѕ С‚РµС…РЅРёРєРµ Dyson
+						</h2>
+						<p class="experts__content-text">
+							РЎРµРіРѕРґРЅСЏ РјРЅРѕРіРёРµ СЃС‚РёР»РёСЃС‚С‹ Рё СЃР°Р»РѕРЅС‹ РєСЂР°СЃРѕС‚С‹ РІ СЃРІРѕРµР№ СЂР°Р±РѕС‚Рµ РёСЃРїРѕР»СЊР·СѓСЋС‚
+							С‚РµС…РЅРёРєСѓ РѕС‚ Dyson.
+						</p>
+						<p class="experts__content-text">
+							РќРµСЃРјРѕС‚СЂСЏ РЅР° РІС‹СЃРѕРєСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ, С‚РµС…РЅРёРєР° Dyson РїРѕРјРѕРіР°РµС‚ СЌРєРѕРЅРѕРјРёС‚СЊ.
+							РњР°СЃС‚РµСЂР° С‚СЂР°С‚СЏС‚ РјРµРЅСЊС€Рµ РІСЂРµРјРµРЅРё РЅР° СЃСѓС€РєСѓ Рё СѓРєР»Р°РґРєСѓ РІРѕР»РѕСЃ, Р±Р»Р°РіРѕРґР°СЂСЏ
+							С‡РµРјСѓ СѓСЃРїРµРІР°СЋС‚ РѕР±СЃР»СѓР¶РёС‚СЊ Р±РѕР»СЊС€РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєР»РёРµРЅС‚РѕРІ. РўР°РєР¶Рµ
+							СѓСЃС‚СЂРѕР№СЃС‚РІР° вЂЁ РѕС‚ Dyson РїРѕС‚СЂРµР±Р»СЏСЋС‚ Р·РЅР°С‡РёС‚РµР»СЊРЅРѕ РјРµРЅСЊС€Рµ
+							СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё, РЅРµ С‚РµСЂСЏСЏ СЃРІРѕСЋ РјРѕС‰РЅРѕСЃС‚СЊ.
+						</p>
+						<p class="experts__content-text">
+							Р¤РµРЅС‹ Dyson СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹. РћРЅРё РїРѕРґС…РѕРґСЏС‚ РґР»СЏ СЃСѓС€РєРё СЂР°Р·РЅС‹С… С‚РёРїРѕРІ
+							РІРѕР»РѕСЃ. РќР°СЃР°РґРєРё РёР· РєРѕРјРїР»РµРєС‚Р° РїРѕРјРѕРіР°СЋС‚ СЃРѕР·РґР°РІР°С‚СЊ СѓРєР»Р°РґРєРё РЅР° Р»СЋР±РѕР№
+							РІРєСѓСЃ. Р¤СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РґРµРІР°Р№СЃРѕРІ РІРїРµС‡Р°С‚Р»СЏРµС‚ РЅРµ РјРµРЅСЊС€Рµ, С‡РµРј РёС…
+							СѓРЅРёРєР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ.
+						</p>
+						<p class="experts__content-text">
+							Р’РµРґСѓС‰РёРµ СЃС‚РёР»РёСЃС‚С‹ РѕС‚РјРµС‡Р°СЋС‚, С‡С‚Рѕ С‚РµС…РЅРёРєР° Dyson РґР»СЏ СѓС…РѕРґР° Р·Р° РІРѕР»РѕСЃР°РјРё
+							РёРґРµР°Р»СЊРЅРѕ РїРѕРґС…РѕРґСЏС‚ РґР»СЏ РґР»РёС‚РµР»СЊРЅРѕР№ СЂР°Р±РѕС‚С‹ Р·Р° СЃС‡РµС‚ СЃРІРѕРµР№
+							СЌСЂРіРѕРЅРѕРјРёС‡РЅРѕСЃС‚Рё. Рђ Р·Р° СЃС‡РµС‚ Р±РµСЃС€СѓРјРЅРѕСЃС‚Рё РёРЅРЅРѕРІР°С†РёРѕРЅРЅРѕРіРѕ РјРѕС‚РѕСЂР°
+							РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СѓСЃС‚СЂРѕР№СЃС‚РІ СЃС‚Р°Р»Рѕ РјР°РєСЃРёРјР°Р»СЊРЅРѕ РєРѕРјС„РѕСЂС‚РЅС‹Рј.
+						</p>
+					</article>
+					<picture class="experts__img-wrapper">
+						<source srcset="./images/experts-img.webp" type="image/webp" />
+						<img
+							class="experts__img"
+							src="./images/experts-img.png"
+							width="700"
+							height="700"
+							loading="lazy"
+							alt="Р”РµРІСѓС€РєР° РїРѕР»СЊР·СѓРµС‚СЃСЏ С„РµРЅРѕРј Dyson"
+						/>
+					</picture>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="container benefits__container">
+					<h2 class="benefits__title section-title">РџРѕС‡РµРјСѓ РІС‹Р±РёСЂР°СЋС‚ РЅР°СЃ</h2>
+					<div class="benefits__grid">
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#benefits-cart"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">РЁРёСЂРѕРєРёР№ Р°СЃСЃРѕСЂС‚РёРјРµРЅС‚</h6>
+								<p class="benefits__item-text">
+									Р‘РѕР»СЊС€РѕР№ РІС‹Р±РѕСЂ С‚РµС…РЅРёРєРё РёВ Р°РєСЃРµСЃСЃСѓР°СЂРѕРІ
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#truck"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">Р‘С‹СЃС‚СЂР°СЏ РґРѕСЃС‚Р°РІРєР°</h6>
+								<p class="benefits__item-text">
+									РџРѕ РњРѕСЃРєРІРµ вЂ” 2-3 С‡Р°СЃР°; РџРѕВ Р РѕСЃСЃРёРёВ вЂ”В 2-4В РґРЅСЏ
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#discount"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">РЎРїРµС†РёР°Р»СЊРЅРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ</h6>
+								<p class="benefits__item-text">
+									РўРѕР»СЊРєРѕ РґР»СЏ РєР»РёРµРЅС‚РѕРІ РЅР°С€РµРіРѕВ СЃР°Р№С‚Р°
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#guarantee"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">Р“Р°СЂР°РЅС‚РёСЏ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ</h6>
+								<p class="benefits__item-text">
+									Р“Р°СЂР°РЅС‚РёСЏ 2 РіРѕРґР° РЅР°В СѓСЃС‚СЂРѕР№СЃС‚РІР°В РёВ Р°РєСЃРµСЃСЃСѓР°СЂС‹
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#card"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">Р‘РµР·РѕРїР°СЃРЅР°СЏ РѕРїР»Р°С‚Р°</h6>
+								<p class="benefits__item-text">РћРїР»Р°С‚Р° РїРѕСЃР»Рµ РїРѕР»СѓС‡РµРЅРёСЏ С‚РѕРІР°СЂР°</p>
+							</div>
+						</div>
+						<div class="benefits__item">
+							<svg width="110" height="110">
+								<use
+									class="benefits__item-icon"
+									href="./icons/benefits-sprite.svg#support"
+								></use>
+							</svg>
+							<div class="benefits__item-content">
+								<h6 class="benefits__item-title">Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ</h6>
+								<p class="benefits__item-text">
+									Р’ Р»СЋР±РѕРј СѓРґРѕР±РЅРѕРј РґР»СЏ РІР°СЃ С„РѕСЂРјР°С‚Рµ,В 7 РґРЅРµР№ РІ РЅРµРґРµР»СЋ
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="offers">
+				<div class="container">
+					<h2 class="offers__title main-title">
+						РЎРїРµС†РїСЂРµРґР»РѕР¶РµРЅРёСЏ <span class="offers__title-number">14</span>
+					</h2>
+					<div class="offers__tags">
+						<div class="offers__tags-item">
+							<a class="offers__tags-item-link" href="#!"
+								>dyson СЃС‚Р°Р№Р»РµСЂ РґР»СЏ РґР»РёРЅРЅС‹С… РІРѕР»РѕСЃ</a
+							>
+						</div>
+						<div class="offers__tags-item">
+							<a class="offers__tags-item-link" href="#!">
+								dyson СЃС‚Р°Р№Р»РµСЂ РєСЂР°СЃРЅС‹Р№</a
+							>
+						</div>
+						<div class="offers__tags-item">
+							<a class="offers__tags-item-link" href="#!">
+								dyson hs01 airwrap compliete</a
+							>
+						</div>
+						<div class="offers__tags-item">
+							<a class="offers__tags-item-link" href="#!"> С„РµРЅ С‰РµС‚РєР° РґР°Р№СЃРѕРЅ</a>
+						</div>
+						<div class="offers__tags-item is-hidden">
+							<a class="offers__tags-item-link" href="#!">
+								dyson hs01 airwrap compliete</a
+							>
+						</div>
+						<div class="offers__tags-item is-hidden">
+							<a class="offers__tags-item-link" href="#!"> С„РµРЅ С‰РµС‚РєР° РґР°Р№СЃРѕРЅ</a>
+						</div>
+						<button class="btn-text-accent">РџРѕРєР°Р·Р°С‚СЊ РµС‰Рµ</button>
+					</div>
+					<div class="offers__dropdown">
+						<div class="offers__dropdown-btn-wrapper">
+							<button class="offers__dropdown-btn">РЎРЅР°С‡Р°Р»Р° РїРѕРїСѓР»СЏСЂРЅС‹Рµ</button>
+							<svg width="10" height="17">
+								<use
+									class="offers__dropdown-btn-icon"
+									href="./icons/offers-sprite.svg#dropdown"
+								></use>
+							</svg>
+						</div>
+						<ul class="offers__dropdown-menu">
+							<li class="offers__dropdown-item">
+								<a href="#!" class="offers__dropdown-link"
+									>РЎРЅР°С‡Р°Р»Р° РїРѕРїСѓР»СЏСЂРЅС‹Рµ</a
+								>
+							</li>
+							<li class="offers__dropdown-item">
+								<a href="#!" class="offers__dropdown-link">РЎРЅР°С‡Р°Р»Р° РґРµС€С‘РІС‹Рµ</a>
+							</li>
+							<li class="offers__dropdown-item">
+								<a href="#!" class="offers__dropdown-link">РЎРЅР°С‡Р°Р»Р° РґРѕСЂРѕРіРёРµ</a>
+							</li>
+							<li class="offers__dropdown-item">
+								<a href="#!" class="offers__dropdown-link">РќРѕРІРёРЅРєРё</a>
+							</li>
+							<li class="offers__dropdown-item">
+								<a href="#!" class="offers__dropdown-link">Р’С‹СЃРѕРєРёР№ СЂРµР№С‚РёРЅРі</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Slider main container -->
+					<div class="swiper offers-swiper offers__grid">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-blue.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson Supersonic Blue"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SВ upersonicВ HD07 СЃРёРЅРёР№В РјРµРґРЅС‹Р№В СЃВ 5В РЅР°СЃР°РґРєР°РјРё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРёСЏ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">59 990Р </strong>
+										<del class="offers__price-old">69 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-gray.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson СЃРµСЂС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SupersonicВ HD07 СЃВ 5В РЅР°СЃР°РґРєР°РјРёВ Рё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРё
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">47 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-purple.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson С„РёРѕР»РµС‚РѕРІС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅ Dyson Supersonic 4 РЅР°СЃР°РґРєРё HD03 СЃ С‡РµС…Р»РѕРј РґР»СЏ С…СЂР°РЅРµРЅРёСЏ
+										С†РІРµС‚ СЃРёСЂРµРЅСЊ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">46 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-blue.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson Supersonic Blue"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SВ upersonicВ HD07 СЃРёРЅРёР№В РјРµРґРЅС‹Р№В СЃВ 5В РЅР°СЃР°РґРєР°РјРё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРёСЏ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">59 990Р </strong>
+										<del class="offers__price-old">69 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-gray.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson СЃРµСЂС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SupersonicВ HD07 СЃВ 5В РЅР°СЃР°РґРєР°РјРёВ Рё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРё
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">47 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-purple.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson С„РёРѕР»РµС‚РѕРІС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅ Dyson Supersonic 4 РЅР°СЃР°РґРєРё HD03 СЃ С‡РµС…Р»РѕРј РґР»СЏ С…СЂР°РЅРµРЅРёСЏ
+										С†РІРµС‚ СЃРёСЂРµРЅСЊ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">46 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-purple.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson С„РёРѕР»РµС‚РѕРІС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅ Dyson Supersonic 4 РЅР°СЃР°РґРєРё HD03 СЃ С‡РµС…Р»РѕРј РґР»СЏ С…СЂР°РЅРµРЅРёСЏ
+										С†РІРµС‚ СЃРёСЂРµРЅСЊ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">46 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-gray.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson СЃРµСЂС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SupersonicВ HD07 СЃВ 5В РЅР°СЃР°РґРєР°РјРёВ Рё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРё
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">47 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-blue.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson Supersonic Blue"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SВ upersonicВ HD07 СЃРёРЅРёР№В РјРµРґРЅС‹Р№В СЃВ 5В РЅР°СЃР°РґРєР°РјРё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРёСЏ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">59 990Р </strong>
+										<del class="offers__price-old">69 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-purple.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson С„РёРѕР»РµС‚РѕРІС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅ Dyson Supersonic 4 РЅР°СЃР°РґРєРё HD03 СЃ С‡РµС…Р»РѕРј РґР»СЏ С…СЂР°РЅРµРЅРёСЏ
+										С†РІРµС‚ СЃРёСЂРµРЅСЊ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">46 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-gray.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson СЃРµСЂС‹Р№"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SupersonicВ HD07 СЃВ 5В РЅР°СЃР°РґРєР°РјРёВ Рё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРё
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">47 990Р </strong>
+										<del class="offers__price-old">51 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+							<article class="offers__item swiper-slide">
+								<img
+									class="offers__item-img"
+									src="./images/offers/product-supersonic-blue.jpg"
+									width="440"
+									height="440"
+									loading="lazy"
+									alt="Р¤РµРЅ Dyson Supersonic Blue"
+								/>
+								<div class="offers__item-content">
+									<h3 class="offers__item-text">
+										Р¤РµРЅВ DysonВ SВ upersonicВ HD07 СЃРёРЅРёР№В РјРµРґРЅС‹Р№В СЃВ 5В РЅР°СЃР°РґРєР°РјРё
+										РІВ С‡РµС…Р»РµВ РёВ СЂР°СЃС‡РµСЃРєР°РјРёСЏ
+									</h3>
+									<div class="offers__status-wrapper">
+										<span class="offers__status">Р’ РЅР°Р»РёС‡РёРё</span>
+										<div class="offers__discount">-15%</div>
+									</div>
+									<div class="offers__price-wrapper">
+										<strong class="offers__price-actual">59 990Р </strong>
+										<del class="offers__price-old">69 990 Р </del>
+									</div>
+								</div>
+								<div class="offers__cart-wrapper">
+									<div class="offers__cart-counter">
+										<button
+											class="offers__cart-counter-left"
+											aria-label="РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#minus"
+												></use>
+											</svg>
+										</button>
+										<div class="offers__cart-counter-value-wrapper">
+											<input
+												type="text"
+												value="1"
+												class="offers__cart-counter-value"
+												aria-label="РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°"
+											/>
+										</div>
+										<button
+											class="offers__cart-counter-right"
+											aria-label="РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ"
+										>
+											<svg width="20" height="20">
+												<use
+													class="benefits__item-icon"
+													href="./icons/offers-sprite.svg#plus"
+												></use>
+											</svg>
+										</button>
+									</div>
+									<button class="offers__cart-btn">Р’ РєРѕСЂР·РёРЅСѓ</button>
+								</div>
+							</article>
+						</div>
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+
+						<!-- If we need scrollbar -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+
+					<div class="offers__nav">
+						<div class="offers__nav-btn-wrapper">
+							<button
+								class="offers__nav-btn"
+								type="button"
+								aria-label="РџСЂРµРґС‹РґСѓС‰РёР№ СЃР»Р°Р№Рґ"
+							>
+								<svg class="offers__nav-icon-left" width="43" height="43">
+									<use href="./icons/offers-sprite.svg#offers-arrow-left"></use>
+								</svg>
+							</button>
+							<button
+								class="offers__nav-btn"
+								type="button"
+								aria-label="РЎР»РµРґСѓСЋС‰РёР№ СЃР»Р°Р№Рґ"
+							>
+								<svg class="offers__nav-icon-right" width="43" height="43">
+									<use
+										href="./icons/offers-sprite.svg#offers-arrow-right"
+									></use>
+								</svg>
+							</button>
+						</div>
+						<div class="offers__pagination">
+							<span>1</span>
+							<span>РёР·</span>
+							<span>3</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="container reviews__container">
+					<div class="reviews__header">
+						<h2 class="reviews__title section-title">
+							РћС‚Р·С‹РІС‹<span class="reviews__title-number"> 151</span>
+						</h2>
+						<ul class="reviews__list">
+							<li class="reviews__item">
+								<article class="reviews__feedback">
+									<div class="reviews__author">
+										<div class="reviews__author-wrapper">
+											<div class="reviews__rating">
+												<span class="reviews__rating-current">5 </span>/ 5
+											</div>
+											<div class="reviews__star">
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+											</div>
+										</div>
+										<button class="reviews__btn">РќР°РїРёСЃР°С‚СЊ РѕС‚Р·С‹РІ</button>
+									</div>
+								</article>
+							</li>
+							<li class="reviews__item">
+								<article class="reviews__feedback">
+									<div class="reviews__author">
+										<div class="reviews__author-wrapper">
+											<div class="reviews__name">РћР»СЊРіР°</div>
+											<div class="reviews__star">
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="reviews__feedback-content">
+											<div class="reviews__feedback-header">
+												<h3 class="reviews__feedback-title">Р­С‚Рѕ Р»СѓС‡С€РёР№ С„РµРЅ!</h3>
+												<time class="date-text" datetime="2022-05-21"
+													>21/05/2022</time
+												>
+											</div>
+											<div class="reviews__feedback-body">
+												<div class="reviews__feedback-text">
+													РџРѕР»СЊР·СѓСЋСЃСЊ РѕРєРѕР»Рѕ РјРµСЃСЏС†Р°, С…РѕС‡Сѓ РїРѕРґРµР»РёС‚СЊСЃСЏ РІРїРµС‡Р°С‚Р»РµРЅРёСЏРјРё.
+													Р’Рѕ-РїРµСЂРІС‹С…, С„РµРЅ РѕС‡РµРЅСЊ Р»РµРіРєРёР№, СѓРґРѕР±РЅРѕ Р»РµР¶РёС‚ РІ СЂСѓРєРµ, РЅРµ
+													СЃРєРѕР»СЊР·РёС‚. РљРЅРѕРїРєР° РІРєР»СЋС‡РµРЅРёСЏ Рё РІС‹РєР»СЋС‡РµРЅРёСЏ СЂР°СЃРїРѕР»РѕР¶РµРЅР°
+													СѓРґРѕР±РЅРѕ, вЂЁР° РЅРµ РіРґРµ-С‚Рѕ СЃР±РѕРєСѓ. РњРѕС‰РЅРѕСЃС‚СЊ Сѓ С„РµРЅР° С…РѕСЂРѕС€Р°СЏ,
+													РІРѕР»РѕСЃС‹ СЃСѓС€РёС‚ Р±С‹СЃС‚СЂРѕ
+												</div>
+												<div class="reviews__feedback-img-wrapper">
+													<img
+														width="95"
+														height="95"
+														src="./images/reviews-img.jpg"
+														alt="Р¤РµРЅ Dyson"
+														class="reviews__feedback-img"
+													/>
+													<img
+														width="95"
+														height="95"
+														src="./images/reviews-img.jpg"
+														alt="Р¤РµРЅ Dyson"
+														class="reviews__feedback-img"
+													/>
+													<img
+														width="95"
+														height="95"
+														src="./images/reviews-img.jpg"
+														alt="Р¤РµРЅ Dyson"
+														class="reviews__feedback-img"
+													/>
+												</div>
+												<button class="btn-text-accent">
+													РЎРјРѕС‚СЂРµС‚СЊ РІСЃРµ С„РѕС‚Рѕ
+												</button>
+											</div>
+										</div>
+									</div>
+								</article>
+							</li>
+							<li class="reviews__item">
+								<article class="reviews__feedback">
+									<div class="reviews__author">
+										<div class="reviews__author-wrapper">
+											<div class="reviews__name">РўР°С‚СЊСЏРЅР°</div>
+											<div class="reviews__star">
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="reviews__feedback-content">
+											<div class="reviews__feedback-header">
+												<h3 class="reviews__feedback-title">РћС‚Р»РёС‡РЅС‹Р№ С„РµРЅ</h3>
+												<time class="date-text" datetime="2022-05-21"
+													>21/05/2022</time
+												>
+											</div>
+											<div class="reviews__feedback-body">
+												<div class="reviews__feedback-text">
+													Р¤РµРЅ РѕС‡РµРЅСЊ РїРѕРЅСЂР°РІРёР»СЃСЏ. РљР°С‡РµСЃС‚РІРµРЅРЅС‹Р№, СЃС‚РёР»СЊРЅС‹Р№: СЃРІРѕСЋ
+													С†РµРЅСѓ РїРѕР»РЅРѕСЃС‚СЊСЋ РѕРїСЂР°РІРґС‹РІР°РµС‚!
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</li>
+							<li class="reviews__item">
+								<article class="reviews__feedback">
+									<div class="reviews__author">
+										<div class="reviews__author-wrapper">
+											<div class="reviews__name">Р’РёРєС‚РѕСЂ</div>
+											<div class="reviews__star">
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+												<svg class="reviews__star-icon" width="25" height="24">
+													<use href="./icons/star-icon.svg#star"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="reviews__feedback-content">
+											<div class="reviews__feedback-header">
+												<h3 class="reviews__feedback-title">Р‘С‹СЃС‚СЂРѕ РїСЂРёС€РµР»</h3>
+												<time class="date-text" datetime="2022-05-21"
+													>21/05/2022</time
+												>
+											</div>
+											<div class="reviews__feedback-body">
+												<div class="reviews__feedback-text">
+													Р¤РµРЅ РѕС‡РµРЅСЊ РїРѕРЅСЂР°РІРёР»СЃСЏ. РљР°С‡РµСЃС‚РІРµРЅРЅС‹Р№, СЃС‚РёР»СЊРЅС‹Р№: СЃРІРѕСЋ
+													С†РµРЅСѓ РїРѕР»РЅРѕСЃС‚СЊСЋ РѕРїСЂР°РІРґС‹РІР°РµС‚!
+												</div>
+												<div class="reviews__feedback-img-wrapper">
+													<img
+														width="95"
+														height="95"
+														src="./images/reviews-img.jpg"
+														alt="Р¤РµРЅ Dyson"
+														class="reviews__feedback-img"
+													/>
+												</div>
+												<button class="btn-text-accent">
+													РЎРјРѕС‚СЂРµС‚СЊ РІСЃРµ С„РѕС‚Рѕ
+												</button>
+											</div>
+										</div>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</div>
+					<div class="reviews__footer">
+						<button class="btn-show-more" type="button">
+							РџРѕРєР°Р·Р°С‚СЊ РµС‰Рµ
+							<svg class="icon-arrow-down" width="30" height="30">
+								<use href="./icons/arrow-down.svg#arrow-down"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="container">
+					<h2 class="section-title faq__title">
+						<span class="section-title faq__span">FAQ вЂ” </span>Р§Р°СЃС‚Рѕ Р·Р°РґР°РІР°РµРјС‹Рµ
+						РІРѕРїСЂРѕСЃС‹
+					</h2>
+					<div class="faq__content">
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р“Р»Р°РІРЅРѕРµ РѕС‚Р»РёС‡РёРµ С„РµРЅР° Dyson РІ Р±С‹СЃС‚СЂРѕРј Рё Р±РµР·РѕРїР°СЃРЅРѕРј РІС‹СЃСѓС€РёРІР°РЅРёРё
+								РІРѕР»РѕСЃ?
+							</summary>
+							<p class="faq__answer-text">
+								Р’ РѕР±С‹С‡РЅРѕРј С„РµРЅРµ РїРѕС‚РѕРє РІРѕР·РґСѓС…Р° СЃР»Р°Р±С‹Р№, РїРѕСЌС‚РѕРјСѓ РµРіРѕ РїСЂРёС…РѕРґРёС‚СЃСЏ
+								РїРµСЂРµРіСЂРµРІР°С‚СЊ, С‡С‚РѕР±С‹ РІС‹СЃСѓС€РёС‚СЊ РІРѕР»РѕСЃС‹ вЂ” СЌС‚Рѕ Р±СѓРєРІР°Р»СЊРЅРѕ В«Р¶Р°СЂРёС‚В» РёС…. Р’
+								Dyson СЃС‚РѕРёС‚ РґРІРёРіР°С‚РµР»СЊ V9, РєРѕС‚РѕСЂС‹Р№ РІСЂР°С‰Р°РµС‚СЃСЏ СЃРѕ СЃРєРѕСЂРѕСЃС‚СЊСЋ 110 000
+								РѕР±/РјРёРЅ. РћРЅ СЃРѕР·РґР°РµС‚ РјРѕС‰РЅС‹Р№, РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РїРѕС‚РѕРє (С‚РµС…РЅРѕР»РѕРіРёСЏ Air
+								Multiplier). Р’ РёС‚РѕРіРµ РІРѕР»РѕСЃС‹ СЃРѕС…РЅСѓС‚ РЅРµ Р·Р° СЃС‡РµС‚ СЌРєСЃС‚СЂРµРјР°Р»СЊРЅРѕР№
+								С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р° Р·Р° СЃС‡РµС‚ РєРѕР»РѕСЃСЃР°Р»СЊРЅРѕР№ СЃРєРѕСЂРѕСЃС‚Рё РІРѕР·РґСѓС…Р°. Р­С‚Рѕ
+								Р±С‹СЃС‚СЂРµРµ Рё Р±РµР·РѕРїР°СЃРЅРµРµ РґР»СЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРѕР»РѕСЃР°.
+							</p>
+						</details>
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р’ СЂСѓРєРѕСЏС‚РєСѓ РІСЃС‚СЂРѕРµРЅ РґР°С‚С‡РёРє С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р±Р»Р°РіРѕРґР°СЂСЏ РєРѕС‚РѕСЂРѕРјСѓ РѕРЅР° РЅРµ
+								РїРѕРґРЅРёРјР°РµС‚СЃСЏ РІС‹С€Рµ 100 РіСЂР°РґСѓСЃРѕРІ?
+							</summary>
+							<p class="faq__answer-text">
+								РРјРµРЅРЅРѕ С‚Р°Рє. Р’РЅСѓС‚СЂРё СЃС‚РѕРёС‚ СЃРёСЃС‚РµРјР° Intelligent Heat Control. РћРЅР°
+								РґРµР»Р°РµС‚ Р·Р°РјРµСЂС‹ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ РІРѕР·РґСѓС…Р° РЅР° РІС‹С…РѕРґРµ Р±РѕР»РµРµ 40 СЂР°Р· РІ
+								СЃРµРєСѓРЅРґСѓ Рё РїРµСЂРµРґР°РµС‚ РґР°РЅРЅС‹Рµ РЅР° РјРёРєСЂРѕРїСЂРѕС†РµСЃСЃРѕСЂ. Р•СЃР»Рё РІРѕР·РґСѓС…
+								СЃС‚Р°РЅРѕРІРёС‚СЃСЏ СЃР»РёС€РєРѕРј РіРѕСЂСЏС‡РёРј, СЃРёСЃС‚РµРјР° РјРіРЅРѕРІРµРЅРЅРѕ СЃРЅРёР¶Р°РµС‚ РЅР°РіСЂРµРІ.
+								Р­С‚Рѕ РіР°СЂР°РЅС‚РёСЂСѓРµС‚, С‡С‚Рѕ С‚РµРјРїРµСЂР°С‚СѓСЂР° РЅРµ РїСЂРµРІС‹СЃРёС‚ РєСЂРёС‚РёС‡РµСЃРєРёРµ 100В°C,
+								РїСЂРё РєРѕС‚РѕСЂС‹С… РЅР°С‡РёРЅР°РµС‚СЃСЏ РЅРµРѕР±СЂР°С‚РёРјРѕРµ СЂР°Р·СЂСѓС€РµРЅРёРµ РєРµСЂР°С‚РёРЅР° РІ
+								РІРѕР»РѕСЃР°С….
+							</p>
+						</details>
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р“Р»Р°РІРЅРѕРµ РѕС‚Р»РёС‡РёРµ С„РµРЅР° Dyson РІ Р±С‹СЃС‚СЂРѕРј Рё Р±РµР·РѕРїР°СЃРЅРѕРј РІС‹СЃСѓС€РёРІР°РЅРёРё
+								РІРѕР»РѕСЃ?
+							</summary>
+							<p class="faq__answer-text">
+								Р’ РѕР±С‹С‡РЅРѕРј С„РµРЅРµ РїРѕС‚РѕРє РІРѕР·РґСѓС…Р° СЃР»Р°Р±С‹Р№, РїРѕСЌС‚РѕРјСѓ РµРіРѕ РїСЂРёС…РѕРґРёС‚СЃСЏ
+								РїРµСЂРµРіСЂРµРІР°С‚СЊ, С‡С‚РѕР±С‹ РІС‹СЃСѓС€РёС‚СЊ РІРѕР»РѕСЃС‹ вЂ” СЌС‚Рѕ Р±СѓРєРІР°Р»СЊРЅРѕ В«Р¶Р°СЂРёС‚В» РёС…. Р’
+								Dyson СЃС‚РѕРёС‚ РґРІРёРіР°С‚РµР»СЊ V9, РєРѕС‚РѕСЂС‹Р№ РІСЂР°С‰Р°РµС‚СЃСЏ СЃРѕ СЃРєРѕСЂРѕСЃС‚СЊСЋ 110 000
+								РѕР±/РјРёРЅ. РћРЅ СЃРѕР·РґР°РµС‚ РјРѕС‰РЅС‹Р№, РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РїРѕС‚РѕРє (С‚РµС…РЅРѕР»РѕРіРёСЏ Air
+								Multiplier). Р’ РёС‚РѕРіРµ РІРѕР»РѕСЃС‹ СЃРѕС…РЅСѓС‚ РЅРµ Р·Р° СЃС‡РµС‚ СЌРєСЃС‚СЂРµРјР°Р»СЊРЅРѕР№
+								С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р° Р·Р° СЃС‡РµС‚ РєРѕР»РѕСЃСЃР°Р»СЊРЅРѕР№ СЃРєРѕСЂРѕСЃС‚Рё РІРѕР·РґСѓС…Р°. Р­С‚Рѕ
+								Р±С‹СЃС‚СЂРµРµ Рё Р±РµР·РѕРїР°СЃРЅРµРµ РґР»СЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРѕР»РѕСЃР°.
+							</p>
+						</details>
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р“Р»Р°РІРЅРѕРµ РѕС‚Р»РёС‡РёРµ С„РµРЅР° Dyson РІ Р±С‹СЃС‚СЂРѕРј Рё Р±РµР·РѕРїР°СЃРЅРѕРј РІС‹СЃСѓС€РёРІР°РЅРёРё
+								РІРѕР»РѕСЃ?
+							</summary>
+							<p class="faq__answer-text">
+								Р’ РѕР±С‹С‡РЅРѕРј С„РµРЅРµ РїРѕС‚РѕРє РІРѕР·РґСѓС…Р° СЃР»Р°Р±С‹Р№, РїРѕСЌС‚РѕРјСѓ РµРіРѕ РїСЂРёС…РѕРґРёС‚СЃСЏ
+								РїРµСЂРµРіСЂРµРІР°С‚СЊ, С‡С‚РѕР±С‹ РІС‹СЃСѓС€РёС‚СЊ РІРѕР»РѕСЃС‹ вЂ” СЌС‚Рѕ Р±СѓРєРІР°Р»СЊРЅРѕ В«Р¶Р°СЂРёС‚В» РёС…. Р’
+								Dyson СЃС‚РѕРёС‚ РґРІРёРіР°С‚РµР»СЊ V9, РєРѕС‚РѕСЂС‹Р№ РІСЂР°С‰Р°РµС‚СЃСЏ СЃРѕ СЃРєРѕСЂРѕСЃС‚СЊСЋ 110 000
+								РѕР±/РјРёРЅ. РћРЅ СЃРѕР·РґР°РµС‚ РјРѕС‰РЅС‹Р№, РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РїРѕС‚РѕРє (С‚РµС…РЅРѕР»РѕРіРёСЏ Air
+								Multiplier). Р’ РёС‚РѕРіРµ РІРѕР»РѕСЃС‹ СЃРѕС…РЅСѓС‚ РЅРµ Р·Р° СЃС‡РµС‚ СЌРєСЃС‚СЂРµРјР°Р»СЊРЅРѕР№
+								С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р° Р·Р° СЃС‡РµС‚ РєРѕР»РѕСЃСЃР°Р»СЊРЅРѕР№ СЃРєРѕСЂРѕСЃС‚Рё РІРѕР·РґСѓС…Р°. Р­С‚Рѕ
+								Р±С‹СЃС‚СЂРµРµ Рё Р±РµР·РѕРїР°СЃРЅРµРµ РґР»СЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРѕР»РѕСЃР°.
+							</p>
+						</details>
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р’ СЂСѓРєРѕСЏС‚РєСѓ РІСЃС‚СЂРѕРµРЅ РґР°С‚С‡РёРє С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р±Р»Р°РіРѕРґР°СЂСЏ РєРѕС‚РѕСЂРѕРјСѓ РѕРЅР° РЅРµ
+								РїРѕРґРЅРёРјР°РµС‚СЃСЏ РІС‹С€Рµ 100 РіСЂР°РґСѓСЃРѕРІ?
+							</summary>
+							<p class="faq__answer-text">
+								РРјРµРЅРЅРѕ С‚Р°Рє. Р’РЅСѓС‚СЂРё СЃС‚РѕРёС‚ СЃРёСЃС‚РµРјР° Intelligent Heat Control. РћРЅР°
+								РґРµР»Р°РµС‚ Р·Р°РјРµСЂС‹ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ РІРѕР·РґСѓС…Р° РЅР° РІС‹С…РѕРґРµ Р±РѕР»РµРµ 40 СЂР°Р· РІ
+								СЃРµРєСѓРЅРґСѓ Рё РїРµСЂРµРґР°РµС‚ РґР°РЅРЅС‹Рµ РЅР° РјРёРєСЂРѕРїСЂРѕС†РµСЃСЃРѕСЂ. Р•СЃР»Рё РІРѕР·РґСѓС…
+								СЃС‚Р°РЅРѕРІРёС‚СЃСЏ СЃР»РёС€РєРѕРј РіРѕСЂСЏС‡РёРј, СЃРёСЃС‚РµРјР° РјРіРЅРѕРІРµРЅРЅРѕ СЃРЅРёР¶Р°РµС‚ РЅР°РіСЂРµРІ.
+								Р­С‚Рѕ РіР°СЂР°РЅС‚РёСЂСѓРµС‚, С‡С‚Рѕ С‚РµРјРїРµСЂР°С‚СѓСЂР° РЅРµ РїСЂРµРІС‹СЃРёС‚ РєСЂРёС‚РёС‡РµСЃРєРёРµ 100В°C,
+								РїСЂРё РєРѕС‚РѕСЂС‹С… РЅР°С‡РёРЅР°РµС‚СЃСЏ РЅРµРѕР±СЂР°С‚РёРјРѕРµ СЂР°Р·СЂСѓС€РµРЅРёРµ РєРµСЂР°С‚РёРЅР° РІ
+								РІРѕР»РѕСЃР°С….
+							</p>
+						</details>
+						<details class="faq__item" name="faq">
+							<summary class="faq__question">
+								Р“Р»Р°РІРЅРѕРµ РѕС‚Р»РёС‡РёРµ С„РµРЅР° Dyson РІ Р±С‹СЃС‚СЂРѕРј Рё Р±РµР·РѕРїР°СЃРЅРѕРј РІС‹СЃСѓС€РёРІР°РЅРёРё
+								РІРѕР»РѕСЃ?
+							</summary>
+							<p class="faq__answer-text">
+								Р’ РѕР±С‹С‡РЅРѕРј С„РµРЅРµ РїРѕС‚РѕРє РІРѕР·РґСѓС…Р° СЃР»Р°Р±С‹Р№, РїРѕСЌС‚РѕРјСѓ РµРіРѕ РїСЂРёС…РѕРґРёС‚СЃСЏ
+								РїРµСЂРµРіСЂРµРІР°С‚СЊ, С‡С‚РѕР±С‹ РІС‹СЃСѓС€РёС‚СЊ РІРѕР»РѕСЃС‹ вЂ” СЌС‚Рѕ Р±СѓРєРІР°Р»СЊРЅРѕ В«Р¶Р°СЂРёС‚В» РёС…. Р’
+								Dyson СЃС‚РѕРёС‚ РґРІРёРіР°С‚РµР»СЊ V9, РєРѕС‚РѕСЂС‹Р№ РІСЂР°С‰Р°РµС‚СЃСЏ СЃРѕ СЃРєРѕСЂРѕСЃС‚СЊСЋ 110 000
+								РѕР±/РјРёРЅ. РћРЅ СЃРѕР·РґР°РµС‚ РјРѕС‰РЅС‹Р№, РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РїРѕС‚РѕРє (С‚РµС…РЅРѕР»РѕРіРёСЏ Air
+								Multiplier). Р’ РёС‚РѕРіРµ РІРѕР»РѕСЃС‹ СЃРѕС…РЅСѓС‚ РЅРµ Р·Р° СЃС‡РµС‚ СЌРєСЃС‚СЂРµРјР°Р»СЊРЅРѕР№
+								С‚РµРјРїРµСЂР°С‚СѓСЂС‹, Р° Р·Р° СЃС‡РµС‚ РєРѕР»РѕСЃСЃР°Р»СЊРЅРѕР№ СЃРєРѕСЂРѕСЃС‚Рё РІРѕР·РґСѓС…Р°. Р­С‚Рѕ
+								Р±С‹СЃС‚СЂРµРµ Рё Р±РµР·РѕРїР°СЃРЅРµРµ РґР»СЏ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІРѕР»РѕСЃР°.
+							</p>
+						</details>
+					</div>
+				</div>
+			</section>
+			<section class="news">
+				<div class="container">
+					<div class="news__inner">
+						<h2 class="news__title section-title">РќРѕРІРѕСЃС‚Рё</h2>
+						<div class="news__wrapper">
+							<article class="news__item">
+								<img
+									width="440px"
+									height="294px"
+									src="./images/news-img.jpg"
+									alt="Р¤РµРЅ Dyson СЃ РЅР°СЃР°РґРєР°РјРё"
+									class="news__img"
+								/>
+								<div class="news__content">
+									<time class="date-text news__date" datetime="2022-12-21"
+										>21 РґРµРєР°Р±СЂСЏ 2022</time
+									>
+									<h3 class="news__content-title">
+										Р•СЃС‚СЊВ Р»РёВ Р±РµР·РѕРїР°СЃРЅС‹Рµ РІС‹РїСЂСЏРјРёС‚РµР»Рё РґР»СЏВ РІРѕР»РѕСЃ
+									</h3>
+									<p class="news__text">
+										Р”РѕР±Р°РІСЊС‚Рµ РѕР±СЉРµРј Рё СЂРµР»СЊРµС„ РєРѕСЂРѕС‚РєРёРј РІРѕР»РѕСЃР°Рј. РџРѕСЃРјРѕС‚СЂРёС‚Рµ, РєР°Рє
+										СЃРѕР·РґР°С‚СЊ РјСЏРіРєРёРµ, Р»РµРіРєРёРµ Р»РѕРєРѕРЅС‹ Рё РІРѕР»РЅС‹ РЅР° РєРѕСЂРѕС‚РєРёС… РІРѕР»РѕСЃР°С… Рё
+										РІРѕР»РѕСЃР°С… СЃСЂРµРґРЅРµР№ РґР»РёРЅС‹.
+									</p>
+									<button class="btn-text-accent">Р§РёС‚Р°С‚СЊ РґР°Р»РµРµ</button>
+								</div>
+							</article>
+							<article class="news__item">
+								<img
+									width="440px"
+									height="294px"
+									src="./images/news-img.jpg"
+									alt="Р¤РµРЅ Dyson СЃ РЅР°СЃР°РґРєР°РјРё"
+									class="news__img"
+								/>
+								<div class="news__content">
+									<time class="date-text news__date" datetime="2022-12-21"
+										>21 РґРµРєР°Р±СЂСЏ 2022</time
+									>
+									<h3 class="news__content-title">
+										Р•СЃС‚СЊВ Р»РёВ Р±РµР·РѕРїР°СЃРЅС‹Рµ РІС‹РїСЂСЏРјРёС‚РµР»Рё РґР»СЏВ РІРѕР»РѕСЃ
+									</h3>
+									<p class="news__text">
+										Р”РѕР±Р°РІСЊС‚Рµ РѕР±СЉРµРј Рё СЂРµР»СЊРµС„ РєРѕСЂРѕС‚РєРёРј РІРѕР»РѕСЃР°Рј. РџРѕСЃРјРѕС‚СЂРёС‚Рµ, РєР°Рє
+										СЃРѕР·РґР°С‚СЊ РјСЏРіРєРёРµ, Р»РµРіРєРёРµ Р»РѕРєРѕРЅС‹ Рё РІРѕР»РЅС‹ РЅР° РєРѕСЂРѕС‚РєРёС… РІРѕР»РѕСЃР°С… Рё
+										РІРѕР»РѕСЃР°С… СЃСЂРµРґРЅРµР№ РґР»РёРЅС‹.
+									</p>
+									<button class="btn-text-accent">Р§РёС‚Р°С‚СЊ РґР°Р»РµРµ</button>
+								</div>
+							</article>
+							<article class="news__item">
+								<img
+									width="440px"
+									height="294px"
+									src="./images/news-img.jpg"
+									alt="Р¤РµРЅ Dyson СЃ РЅР°СЃР°РґРєР°РјРё"
+									class="news__img"
+								/>
+								<div class="news__content">
+									<time class="date-text news__date" datetime="2022-12-21"
+										>21 РґРµРєР°Р±СЂСЏ 2022</time
+									>
+									<h3 class="news__content-title">
+										Р•СЃС‚СЊВ Р»РёВ Р±РµР·РѕРїР°СЃРЅС‹Рµ РІС‹РїСЂСЏРјРёС‚РµР»Рё РґР»СЏВ РІРѕР»РѕСЃ
+									</h3>
+									<p class="news__text">
+										Р”РѕР±Р°РІСЊС‚Рµ РѕР±СЉРµРј Рё СЂРµР»СЊРµС„ РєРѕСЂРѕС‚РєРёРј РІРѕР»РѕСЃР°Рј. РџРѕСЃРјРѕС‚СЂРёС‚Рµ, РєР°Рє
+										СЃРѕР·РґР°С‚СЊ РјСЏРіРєРёРµ, Р»РµРіРєРёРµ Р»РѕРєРѕРЅС‹ Рё РІРѕР»РЅС‹ РЅР° РєРѕСЂРѕС‚РєРёС… РІРѕР»РѕСЃР°С… Рё
+										РІРѕР»РѕСЃР°С… СЃСЂРµРґРЅРµР№ РґР»РёРЅС‹.
+									</p>
+									<button class="btn-text-accent">Р§РёС‚Р°С‚СЊ РґР°Р»РµРµ</button>
+								</div>
+							</article>
+						</div>
+						<button class="btn-show-more">
+							РџРѕРєР°Р·Р°С‚СЊ РµС‰С‘
+							<svg class="icon-arrow-down" width="30" height="30">
+								<use href="./icons/arrow-down.svg#arrow-down"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="container">
+					<form class="contact__form form" action="#">
+						<div class="form__column">
+							<h2 class="form__title">РЎРІСЏР¶РёС‚РµСЃСЊ СЃ РЅР°РјРё</h2>
+							<div class="form__group-name">
+								<input
+									type="text"
+									class="form__input"
+									placeholder="Р’Р°С€Рµ РёРјСЏ"
+									required
+								/>
+							</div>
+							<div class="form__group-tel">
+								<input
+									type="tel"
+									class="form__input input-tel"
+									placeholder="Р’Р°С€ РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°"
+									required
+								/>
+							</div>
+							<button type="submit" class="form__btn button-dark">
+								РћСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ
+							</button>
+						</div>
+					</form>
+
+					<form class="contact__form form" action="#">
+						<div class="form__column">
+							<h2 class="form__title">РџРѕРґРїРёС€РёС‚РµСЃСЊ РЅР° РЅРѕРІРѕСЃС‚Рё</h2>
+							<div class="form__group-mail">
+								<input
+									type="email"
+									class="form__input"
+									placeholder="Р’Р°С€ e-mail"
+									required
+								/>
+							</div>
+							<button type="submit" class="form__btn button-dark">
+								РџРѕРґРїРёСЃР°С‚СЊСЃСЏ
+							</button>
+							<label class="form__checkbox-label">
+								<input type="checkbox" class="form__checkbox-input" required />
+								<span class="form__checkbox-custom"></span>
+								<span class="form__checkbox-text"
+									>РЇ РѕР·РЅР°РєРѕРјР»РµРЅ(Р°) СЃ РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё Рё СЃРѕРіР»Р°СЃРµРЅ(Р°)
+									СЃ РѕР±СЂР°Р±РѕС‚РєРѕР№ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…
+								</span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container footer_container">
+					<img
+						class="footer__logo-dyson"
+						width="183"
+						height="77"
+						src="./icons/logo-icon.svg"
+						alt="Р›РѕРіРѕС‚РёРї Dyson"
+					/>
+					<div class="footer__wrapper">
+						<div class="footer__wrapper-left">
+							<div class="footer__column-shop">
+								<h3 class="footer__title-about-us footer__title">Рћ РєРѕРјРїР°РЅРёРё</h3>
+								<h3 class="footer__title-shop footer__title">РњР°РіР°Р·РёРЅ</h3>
+								<ul class="footer__nav-list">
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>Р¤РµРЅС‹ Dyson Supersonic</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>РЎС‚Р°Р№Р»РµСЂС‹ Dyson Airwrap</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>Р’С‹РїСЂСЏРјРёС‚РµР»Рё Dyson Corrale</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РџС‹Р»РµСЃРѕСЃС‹</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>РљР»РёРјР°С‚РёС‡РµСЃРєР°СЏ С‚РµС…РЅРёРєР°</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РћСЃРІРµС‰РµРЅРёРµ</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РђРєСЃРµСЃСЃСѓР°СЂС‹</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__column-info">
+								<h3 class="footer__title-info footer__title">
+									РћР±С‰Р°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+								</h3>
+								<ul class="footer__nav-list">
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РќРѕРІРѕСЃС‚Рё</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">Р”РѕСЃС‚Р°РІРєР°</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">Р“Р°СЂР°РЅС‚РёСЏ</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РћРїР»Р°С‚Р° С‚РѕРІР°СЂР°</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">РЎРІСЏР¶РёС‚РµСЃСЊ СЃ РЅР°РјРё</a>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!">Р”РѕРіРѕРІРѕСЂ РѕС„РµСЂС‚С‹</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__wrapper-right">
+							<div class="footer__column-actions">
+								<h3 class="footer__title-actions footer__title">РђРєС†РёРё</h3>
+								<ul class="footer__nav-list">
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>РџРѕРґР°СЂРѕС‡РЅР°СЏ РєРѕР»Р»РµРєС†РёСЏ</a
+										>
+									</li>
+									<li class="footer__nav-item">
+										<a class="footer__nav-link" href="#!"
+											>Р­РєСЃРєР»СЋР·РёРІРЅС‹Рµ РїСЂРµРґР»РѕР¶РµРЅРёСЏ</a
+										>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__column-contacts">
+								<div class="footer__tel-wrapper">
+									<span class="footer__contacts-label">РћС‚РґРµР» Р»РѕРіРёСЃС‚РёРєРё:</span>
+									<a class="footer__contacts-phone" href="tel:+79998004554"
+										>+7 (999) 800-45-54</a
+									>
+								</div>
+								<div class="footer__socials-wrapper">
+									<a href="#!" aria-label="РњС‹ РІ Telegram">
+										<svg
+											class="footer__socials-icon"
+											width="40"
+											height="40"
+											aria-hidden="true"
+										>
+											<use href="./icons/footer-sprite.svg#telegram"></use>
+										</svg>
+									</a>
+									<a href="#!" aria-label="РњС‹ Р’РљРѕРЅС‚Р°РєС‚Рµ">
+										<svg
+											class="footer__socials-icon"
+											width="40"
+											height="40"
+											aria-hidden="true"
+										>
+											<use href="./icons/footer-sprite.svg#vk"></use>
+										</svg>
+									</a>
+									<a href="#!" aria-label="РќР°С€ YouTube">
+										<svg
+											class="footer__socials-icon"
+											width="40"
+											height="40"
+											aria-hidden="true"
+										>
+											<use href="./icons/footer-sprite.svg#youtube"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<p class="footer__copy">
+							РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ dysmarket.ru, 2022 В© Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+						</p>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+  /* font-family */
+  --font-main: "OpenSans", sans-serif;
+  --font-accent: "NAMU", sans-serif;
+
+  /* font-weight */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-heavy: 900;
+
+  /* colors */
+  --color-dark: #111;
+  --color-black: #000;
+  --color-accent: #c5358c;
+  --color-white: #fff;
+
+  /* background */
+  --bg-main: #fff;
+  --bg-secondary: #f8f8f8;
+  --bg-hero: #d9d9d9;
+  --bg-header: var(--color-dark);
+  --bg-footer: var(--color-dark);
+
+  /* Text */
+  --text-main: #111;
+  --text-bold: #000;
+  --text-accent: #c5358c;
+  --text-white: #fff; /* Белый текст на кнопках */
+
+  /* container */
+  --container-width: 1360px;
+
+  /* min-width 390px  -  max-width 768px */
+  --container-padding: clamp(20px, -1.974rem + 13.23vw, 70px);
+
+  /* @media (width > 768px) {
+		--container-padding: 70px;
+	}
+
+	@media (width <= 768px) {
+		--container-padding: 40px;
+	}
+
+	@media (width <= 576px) {
+		--container-padding: 30px;
+	}
+
+	@media (width <= 390px) {
+		--container-padding: 20px;
+	} */
+
+  /* transitions */
+  --transition-time: 0.2s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}

@@ -1,0 +1,286 @@
+.categories {
+	/* 768 to 1920 */
+	padding-top: clamp(60px, 7.81vw, 150px);
+	padding-bottom: clamp(70px, 1.042rem + 6.94vw, 150px);
+}
+
+@media (width <= 768px) {
+	.categories {
+		padding-top: 60px;
+		padding-bottom: 70px;
+	}
+}
+
+@media (width <= 576px) {
+	.categories {
+		padding-top: 31px;
+		padding-bottom: 46px;
+	}
+}
+
+.categories__grid {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: minmax(142px, 325px) 20px minmax(142px, 325px) 20px
+		minmax(142px, 325px) 20px minmax(142px, 325px);
+	grid-template-columns: repeat(4, minmax(142px, 325px));
+	-ms-grid-rows: 1fr 20px 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	gap: 20px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.categories__grid > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+
+.categories__grid > *:nth-child(2) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 3;
+}
+
+.categories__grid > *:nth-child(3) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 5;
+}
+
+.categories__grid > *:nth-child(4) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 7;
+}
+
+.categories__grid > *:nth-child(5) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 1;
+}
+
+.categories__grid > *:nth-child(6) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 3;
+}
+
+.categories__grid > *:nth-child(7) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 5;
+}
+
+.categories__grid > *:nth-child(8) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 7;
+}
+
+@media (width <= 768px) {
+	.categories__grid {
+		grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+		gap: 20px 10px;
+	}
+}
+
+@media (width <= 390px) {
+	.categories__grid {
+		-ms-grid-columns: minmax(170px, 325px) 10px minmax(170px, 325px);
+		grid-template-columns: repeat(2, minmax(170px, 325px));
+		gap: 20px 10px;
+	}
+}
+
+.categories__item-link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-decoration: none;
+	height: 100%;
+}
+
+.categories__item {
+	border-radius: 3px;
+	max-width: 325px;
+	max-height: 454px;
+	-webkit-box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.05);
+	background: var(--bg-main);
+	min-width: 142px;
+	-webkit-transition: -webkit-transform var(--transition-time) ease;
+	transition: -webkit-transform var(--transition-time) ease;
+	-o-transition: transform var(--transition-time) ease;
+	transition: transform var(--transition-time) ease;
+	transition:
+		transform var(--transition-time) ease,
+		-webkit-transform var(--transition-time) ease;
+}
+
+@media (width <= 768px) {
+	.categories__item {
+		-webkit-box-shadow:
+			0 2px 21px 0 rgba(0, 0, 0, 0.05),
+			0 2px 21px 0 rgba(0, 0, 0, 0.05);
+		box-shadow:
+			0 2px 21px 0 rgba(0, 0, 0, 0.05),
+			0 2px 21px 0 rgba(0, 0, 0, 0.05);
+	}
+}
+
+.categories__item-content {
+	-webkit-transition:
+		background-color var(--transition-time) ease,
+		border-radius var(--transition-time) ease;
+	-o-transition:
+		background-color var(--transition-time) ease,
+		border-radius var(--transition-time) ease;
+	transition:
+		background-color var(--transition-time) ease,
+		border-radius var(--transition-time) ease;
+	padding-inline: 40px;
+	padding-block: 20px 30px;
+	border-radius: 3px;
+}
+
+@media (any-hover: hover) {
+	.categories__item-link:hover .categories__item-text,
+	.categories__item-link:hover .categories__item-title,
+	.categories__item-link:hover .categories__item-icon {
+		color: var(--color-white);
+	}
+
+	.categories__item-link:hover .categories__item-content {
+		background-color: var(--color-dark);
+	}
+
+	.categories__item-link:hover .categories__item-content {
+		border-radius: 0 0 10px 10px;
+		overflow: hidden;
+	}
+
+	.categories__item:hover {
+		-webkit-transform: translateY(-5px);
+		-ms-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+.categories__item-title,
+.categories__item-text,
+.categories__item-icon {
+	-webkit-transition: color var(--transition-time) ease;
+	-o-transition: color var(--transition-time) ease;
+	transition: color var(--transition-time) ease;
+}
+
+.categories__item-link:active .categories__item-content {
+	background-color: var(--color-dark);
+	border-radius: 0 0 10px 10px;
+}
+
+.categories__item-link:active .categories__item-text,
+.categories__item-link:active .categories__item-title {
+	color: var(--color-white);
+}
+
+.categories__item-link:active .categories__item-icon {
+	color: var(--color-white);
+}
+
+.categories__item:active {
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+/* Ноутбуки и мониторы поменьше */
+@media (width <= 1200px) {
+	.categories__item-content {
+		padding-inline: 30px;
+		padding-block: 16px 24px;
+	}
+}
+
+/* Планшеты (горизонтальные) */
+@media (width <= 992px) {
+	.categories__item-content {
+		padding-inline: 20px;
+		padding-block: 13px 18px;
+	}
+}
+
+@media (width <= 768px) {
+	.categories__item-content {
+		padding-inline: 12px;
+		padding-block: 10px 15px;
+	}
+}
+
+.categories__item-title {
+	font-family: var(--font-accent);
+	font-weight: var(--fw-heavy);
+	/* 768 to 1920 */
+	font-size: clamp(16px, 0.417rem + 1.22vw, 30px);
+	color: var(--text-main);
+	margin-bottom: 11px;
+}
+
+@media (width <= 768px) {
+	.categories__item-title {
+		margin-bottom: 6px;
+	}
+}
+
+.categories__item-text {
+	font-family: var(--font-main);
+	font-weight: var(--fw-regular);
+	/* 768 to 1920 */
+	font-size: clamp(12px, 0.25rem + 1.04vw, 24px);
+	color: var(--text-main);
+}
+
+.categories__item-more {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 20px;
+}
+
+@media (width <= 992px) {
+	.categories__item-more {
+		gap: 14px;
+	}
+}
+
+@media (width <= 768px) {
+	.categories__item-more {
+		gap: 8px;
+	}
+}
+
+.categories__item-icon {
+	width: 34px;
+	height: auto;
+	color: var(--color-dark);
+}
+
+@media (width <= 1200px) {
+	.categories__item-icon {
+		width: 28px;
+	}
+}
+
+@media (width <= 992px) {
+	.categories__item-icon {
+		width: 24px;
+	}
+}
+
+@media (width <= 768px) {
+	.categories__item-icon {
+		width: 17px;
+	}
+}

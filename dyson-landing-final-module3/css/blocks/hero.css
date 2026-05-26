@@ -1,0 +1,230 @@
+.hero {
+	background-color: var(--bg-hero);
+	position: relative;
+	/* 768px to 1920px */
+	padding-left: var(--container-padding);
+	/* 768px to 1920px */
+	padding-right: clamp(40px, -6.667rem + 19.1vw, 260px);
+}
+
+@media (width > 1920px) {
+	.hero {
+		padding-right: calc((100% - 1400px) / 2 + 0px);
+	}
+}
+
+@media (width > 1440px) {
+	.hero {
+		padding-left: calc((100% - 1440px) / 2 + 70px);
+	}
+}
+
+@media (width > 992px) {
+	/* 992px to 1920px */
+	.hero {
+		padding-top: clamp(74px, 3.556rem + 1.72vw, 90px);
+	}
+}
+
+@media (width <= 992px) {
+	.hero {
+		padding-top: clamp(53px, 2.688rem + 3.13vw, 74px);
+	}
+}
+
+@media (width <= 768px) {
+	/* 390px to 768px */
+	.hero {
+		padding-right: clamp(0px, -2.579rem + 10.58vw, 30px);
+	}
+}
+
+.hero__grid {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr;
+	grid-template-columns: 1fr;
+	-ms-grid-rows: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.hero__grid > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+
+@media (width <= 768px) {
+	.hero__grid {
+		-ms-grid-rows: auto auto;
+		grid-template-rows: auto auto;
+
+		-webkit-box-align: start;
+
+		-ms-flex-align: start;
+
+		align-items: start;
+	}
+}
+
+.hero__img-wrapper,
+.hero__content {
+	-ms-grid-column: 1;
+	grid-column: 1;
+	-ms-grid-row: 1;
+	grid-row: 1;
+}
+
+@media (width > 768px) {
+	.hero__content {
+		padding-top: clamp(80px, -2.083rem + 14.76vw, 250px);
+	}
+}
+
+@media (width <= 768px) {
+	.hero__content {
+		padding-top: clamp(50px, 1.19rem + 7.94vw, 80px);
+	}
+}
+
+.hero__title {
+	margin-bottom: 40px;
+}
+
+@media (width <= 992px) {
+	.hero__title {
+		margin-bottom: 30px;
+	}
+}
+
+@media (width <= 576px) {
+	.hero__title {
+		margin-bottom: 16px;
+	}
+}
+
+.hero__text {
+	font-family: var(--font-main);
+	font-weight: var(--fw-regular);
+	line-height: 130%;
+	color: var(--text-main);
+	/* 768px to 1920px */
+	font-size: clamp(12px, 0.167rem + 1.22vw, 26px);
+	/* 768px to 1920px */
+	margin-bottom: clamp(40px, 0.417rem + 4.34vw, 90px);
+	/* 768px to 1920px */
+	max-width: clamp(253px, 3.438rem + 25.78vw, 550px);
+}
+
+@media (width <= 768px) {
+	.hero__text {
+		font-size: 12px;
+		line-height: 140%;
+		/* 390px to 768px */
+		max-width: clamp(170px, 5.273re m + 21.96vw, 253px);
+		margin-bottom: 30px;
+	}
+}
+
+.hero__button-details {
+	background-color: var(--color-accent);
+	color: var(--text-white);
+	border-radius: 3px;
+	-webkit-transition:
+		background-color var(--transition-time) ease,
+		-webkit-transform var(--transition-time);
+	transition:
+		background-color var(--transition-time) ease,
+		-webkit-transform var(--transition-time);
+	-o-transition:
+		background-color var(--transition-time) ease,
+		transform var(--transition-time);
+	transition:
+		background-color var(--transition-time) ease,
+		transform var(--transition-time);
+	transition:
+		background-color var(--transition-time) ease,
+		transform var(--transition-time),
+		-webkit-transform var(--transition-time);
+}
+
+@media (any-hover: hover) {
+	.hero__button-details:hover {
+		background-color: var(--color-dark);
+		color: var(--text-white);
+	}
+}
+
+.hero__button-details:active {
+	background-color: var(--color-dark);
+	color: var(--text-white);
+	transform: scale(0.98);
+}
+
+@media (width > 992px) {
+	.hero__button-details {
+		font-size: 24px;
+		padding-inline: 52px;
+		padding-block: 16px;
+	}
+}
+
+@media (width <= 992px) {
+	.hero__button-details {
+		font-size: 20px;
+		padding-inline: 40px;
+		padding-block: 12px;
+	}
+}
+
+@media (width <= 768px) {
+	.hero__button-details {
+		font-size: 16px;
+		padding-inline: 26px;
+		padding-block: 8px;
+	}
+}
+
+.hero__img-wrapper {
+	-ms-grid-column-align: end;
+	justify-self: end;
+	aspect-ratio: 735 / 850;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+@media (width > 768px) {
+	.hero__img-wrapper {
+		height: clamp(389px, 5.104rem + 40.02vw, 850px);
+		width: auto;
+	}
+}
+
+@media (width <= 768px) {
+	.hero__img-wrapper {
+		-ms-grid-row: 2;
+		grid-row: 2;
+		height: clamp(274px, 9.709rem + 30.42vw, 389px);
+		width: auto;
+		padding-top: 0;
+		margin-top: clamp(-255px, 3.11rem - 39.68vw, -105px);
+	}
+}
+
+.hero__title {
+	line-height: 103%;
+}
+
+.hero__img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.hero__content {
+	z-index: 2;
+	max-width: 670px;
+}
